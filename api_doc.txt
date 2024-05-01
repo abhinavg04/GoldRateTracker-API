@@ -1,0 +1,13 @@
+url:localhost:8000/account/add_user/
+--to create new user
+method:POST
+
+url:localhost:8000/goldrate/
+--to get goldrate
+
+url:localhost:8000/goldrate?date='2020-12-02'
+--gold rate of specific date
+
+url:
+http://127.0.0.1:8000/goldrate?start_date=2024-04-01&end_date=2024-04-09
+--historic goldrate between specific date
